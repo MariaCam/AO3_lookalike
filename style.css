@@ -4,10 +4,11 @@ h1, h2{
 
 .tag h2 {
   color: black;
+  font-size: 40px;
 }
 
 .menu li {
-  display: inline;
+  display: block;
   background-color: red;
 }
 
@@ -33,21 +34,37 @@ h2, .menu h1 {
 
 .fandoms li, .row2 li {
     list-style-image: url('arrow.png');
+    width: 50%;
 }
 
 .row2 li {
-    transform: scaleX(0.9px);
+    float: right;
 }
 
 .benefits {
-    background-color: rgb(197, 185, 185);
+    background-color: rgb(197, 197, 197, 0.46);
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 10px;
 }
 
 .news {
   width: 40%;
 }
 
+.link {
+    font-size: 20px;
+}
+
 .tag {
     float: right;
     width: 57%;
+}
+
+.button {
+    text-align: center;
+}
+
+.below {
+    text-align: center;
 }
