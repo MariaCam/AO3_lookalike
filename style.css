@@ -1,8 +1,11 @@
-p {
+h1, h2{
     color: red;
 }
 
-p.menu {
-    color: green;
-    display: inline;
+.tag h2 {
+  color: black;
+}
+
+.menu li {
+  display: inline;
 }
