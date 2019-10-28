@@ -8,20 +8,29 @@ h1, h2{
 }
 
 .menu li {
-  display: block;
-  background-color: red;
-}
-
-h2, .menu h1 {
-  font-weight: 1;
-}
-
-.search {
-  padding: 5px;
-  float: right;
-  border: solid;
-  border-width: 0.1px;
-}
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline;
+    padding-right: 15px;
+    background: #900 url("/images/skins/textures/tiles/red-ao3.png");
+    display: relative;
+    float: left;
+  }
+  
+  h2, .menu h1 {
+    font-weight: 1;
+    font-size: 30px;
+  }
+  
+  .search {
+      display: block;
+    padding-left: 70%;
+    float: right;
+    border: solid;
+    border-width: 0.1px;
+    color: black;
+  }
 
 .logo {
   height: 40px;
@@ -63,6 +72,7 @@ h2, .menu h1 {
 
 .button {
     text-align: center;
+    padding: 10px, 10px;
 }
 
 .below {
