@@ -28,7 +28,7 @@ h2, .menu h1 {
 }
 
 .fandoms {
-    width: 50%;
+    width: 40%;
 }
 
 .fandoms li, .row2 li {
@@ -36,11 +36,18 @@ h2, .menu h1 {
 }
 
 .row2 li {
-    position: relative;
-    left: 240px;
-    bottom: 265px;
+    transform: scaleX(0.9px);
+}
+
+.benefits {
+    background-color: rgb(197, 185, 185);
 }
 
 .news {
-  width: 50%;
+  width: 40%;
+}
+
+.tag {
+    float: right;
+    width: 57%;
 }
