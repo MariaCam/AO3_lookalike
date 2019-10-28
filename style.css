@@ -27,8 +27,18 @@ h2, .menu h1 {
   display: inline;
 }
 
+.fandoms {
+    width: 50%;
+}
+
 .fandoms li, .row2 li {
     list-style-image: url('arrow.png');
+}
+
+.row2 li {
+    position: relative;
+    left: 240px;
+    bottom: 265px;
 }
 
 .news {
