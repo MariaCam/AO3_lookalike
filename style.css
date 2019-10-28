@@ -8,4 +8,21 @@ h1, h2{
 
 .menu li {
   display: inline;
+  background-color: red;
+}
+
+.menu h1 {
+  font-weight: 1;
+}
+
+.search {
+  padding: 5px;
+  float: right;
+  border: solid;
+  border-width: 0.1px;
+}
+
+.logo {
+  height: 40px;
+  display: inline;
 }
