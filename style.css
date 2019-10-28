@@ -1,5 +1,5 @@
 h1, h2{
-    color: red;
+    color: #9c1011;
 }
 
 .tag h2 {
@@ -11,7 +11,7 @@ h1, h2{
   background-color: red;
 }
 
-.menu h1 {
+h2, .menu h1 {
   font-weight: 1;
 }
 
@@ -25,4 +25,12 @@ h1, h2{
 .logo {
   height: 40px;
   display: inline;
+}
+
+.fandoms li, .row2 li {
+    list-style-image: url('arrow.png');
+}
+
+.news {
+  width: 50%;
 }
